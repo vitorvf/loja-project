@@ -1,0 +1,561 @@
+@font-face {
+  src: url(/src/Outfit/Outfit-VariableFont_wght.ttf);
+  font-family: Outfit;
+}
+
+/* header */
+
+header{
+  /* width: 1440px; */
+  height: 136px;
+}
+
+
+
+.cart-icon{
+  margin-right: 5px;
+}
+.placeholder-text::placeholder {
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color:#8D9FA8;
+
+}
+.box{
+  background-color: #EDF4F7;
+	/* width: 500px; */
+
+	height: 50px;
+
+
+
+  border-radius: 16px;
+
+
+	display: flex;
+
+	align-items: center;
+
+	padding: 20px;
+
+}
+
+.box > i {
+  background-color: #EDF4F7;
+	font-size: 20px;
+
+	color: #777;
+
+}
+
+.box > input{
+  background-color: #EDF4F7;
+	flex: 1;
+
+	height: 40px;
+
+	border: none;
+
+	outline: none;
+
+	font-size: 18px;
+
+	padding-left: 10px;
+
+
+}
+
+.second-nav{
+  margin-left: 30rem;
+}
+
+
+.color-ul ul li a {
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* Interface / Dark */
+
+color: #051923;
+}
+
+ul li a:hover {
+  color:#00A6FB !important;
+
+}
+
+.mynav{
+  margin-top: 30px;
+}
+
+
+.margin-header{
+  margin-top: 2rem;
+}
+/* Fim header */
+
+
+
+/* Home section */
+
+a{
+  text-decoration: none;
+}
+
+.section1{
+  height: 100vh;
+  width: 100%;
+  background: #EDF4F7;
+}
+
+.h1section{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 76px;
+color: #051923;
+}
+
+
+.h3section{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+
+/* Interface / Dark */
+
+color: #051923;
+}
+
+
+.section1 .btn-get-started {
+  margin-top: 30px ;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 16px;
+  width: 247px;
+height: 55px;
+  transition: 0.5s;
+  color: #fff;
+  background:#00A6FB;
+  box-shadow: 0px 5px 30px rgb(65 84 241 / 40%);
+}
+
+
+.section2{
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.defaut-button{
+  width: 141px;
+  height: 55px;
+  background: #EDF4F7;
+  border-radius: 16px;
+  line-height: 0;
+  /* padding: 15px 40px; */
+
+
+}
+
+.span-vertodos{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* Interface / Dark */
+
+color: #051923;
+}
+
+
+
+.h3section2{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+  color: #051923;
+}
+
+.psection2{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #051923;
+}
+
+.card2{
+  width: 21rem;
+  border-radius: 24px;
+    box-shadow: 0px 16px 16px -16px rgb(79 91 97 / 15%);
+    border: none !important;
+    margin-bottom: -11px;
+  /* width: 384px; */
+/* height: 481px; */
+}
+
+
+
+.defaut-button2{
+  width: 228px;
+  height: 55px;
+  background:#00A6FB;
+  border-radius: 16px;
+  line-height: 0;
+  color: #FBFDFE;
+  /* padding: 15px 23px; */
+  padding: 15px 12px;
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+}
+
+.defaut-button3{
+  width: 92px;
+  height: 55px;
+  background: #EDF4F7;
+  border-radius: 16px;
+  line-height: 0;
+  margin-left: 12px;
+  /* padding: 15px 40px; */
+
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+
+}
+
+.price{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+/* identical to box height */
+
+
+/* Interface / Dark */
+
+  color: #051923;
+}
+
+
+.price i{
+  margin-left: 3px;
+}
+
+.pcard{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+/* Interface / Dark */
+
+color: #051923;
+}
+
+
+.imgcard{
+  border-radius: 24px 24px 0px 0px;
+}
+
+.stars{
+  margin-bottom: 9px;
+}
+
+.margin-gadgets{
+  margin-top: 4rem;
+}
+
+
+.margin-gadgets2{
+  margin-top: 7rem;
+}
+
+/* Fim de Home */
+
+/* Inicio Produto */
+
+.margin-opinions{
+  margin-top: 60px;
+}
+
+.margin-opinions h3{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 28px;
+}
+.margin-icon-opinions{
+  /* margin-right: 14px; */
+  margin-right: 1rem;
+}
+
+.first-p{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+
+/* Interface / Dark */
+
+color: #051923;
+
+}
+
+
+.p-products{
+  /* D / 5 - Base */
+
+font-family: 'Outfit';
+font-style: normal;
+
+font-size: 18px;
+line-height: 23px;
+
+/* Interface / Dark */
+
+color: #051923;
+}
+
+.span-products {
+  font-weight: 700;
+}
+
+.ulstyle{
+  /* D / 5 - Base */
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+/* Interface / Dark */
+
+color: #051923;
+}
+
+
+.h2-carac{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 44px;
+/* identical to box height */
+
+
+/* Interface / Dark */
+
+color: #051923;
+}
+
+.h3-espe{
+  /* D / 3 */
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+
+/* Interface / Dark */
+
+color: #051923;
+}
+
+
+.margin-info{
+  margin-top: 4rem;
+}
+
+
+.margin-product{
+  margin-top: 4rem;
+}
+
+/* Fim Produto */
+
+
+
+
+
+
+/* 
+
+
+
+Footer */
+
+
+.footer {
+  margin-top: 60px;
+  background: #051923;
+  padding: 0 0 30px 0;
+  font-size: 14px;
+}
+
+
+
+.footer .footer-top {
+  background: #051923;
+  background-size: contain;
+  border-top: 1px solid #e1ecff;
+color: white;
+  padding: 60px 0 30px 0;
+}
+.text-contact{
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .footer .footer-top {
+    background-position: center bottom;
+  }
+}
+
+.footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 15px;
+}
+
+.footer .footer-top .footer-info .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-top .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+}
+
+.footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer .footer-top .social-links a {
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+  line-height: 0;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .footer-top .social-links a:hover {
+  color:#00A6FB;
+}
+
+.footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: white;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-top .footer-links ul a {
+  color: white;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-top .footer-links ul a:hover {
+  color: #00A6FB;
+}
+
+.footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+.footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+
+
+/* Fim Footer */
+
+
