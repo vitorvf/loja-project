@@ -10,13 +10,13 @@ export const Header = () => {
         <div className="container margin-header">
           <div className="row">
             <div className="col-md-3">
-              <a href="index.html" class="logo d-flex align-items-center">
+              <a href="index.html" className="logo d-flex align-items-center">
                 <img src={Logo} alt=""></img>
               </a>
             </div>
 
             <div className="col-md-7">
-              <div class="box">
+              <div className="box">
                 <input
                   className="placeholder-text"
                   placeholder="Buscar Produto"
@@ -42,10 +42,10 @@ export const Header = () => {
         </div>
 
         <div className="container mynav">
-          <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
+          <nav className="navbar navbar-expand-lg ">
+            <div className="container-fluid">
               <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarText"
@@ -53,51 +53,54 @@ export const Header = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse color-ul" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
+              <div
+                className="collapse navbar-collapse color-ul"
+                id="navbarText"
+              >
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li className="nav-item">
+                    <a className="nav-link active" aria-current="page" href="/">
                       Todos os produtos
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                  <li className="nav-item">
+                    <a className="nav-link active" href="#">
                       Sobre
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                  <li className="nav-item">
+                    <a className="nav-link active" href="#">
                       Contato
                     </a>
                   </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                  <li className="nav-item">
+                    <a className="nav-link active" href="#">
                       Gadgets
                     </a>
                   </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                  <li className="nav-item">
+                    <a className="nav-link active" href="#">
                       Ofertas
                     </a>
                   </li>
                 </ul>
 
-                <ul class="navbar-nav secongnav-margin mb-2 mb-lg-0">
-                  <li class="nav-item">
+                <ul className="navbar-nav secongnav-margin mb-2 mb-lg-0">
+                  <li className="nav-item">
                     <a
-                      class="nav-link active active"
+                      className="nav-link active active"
                       aria-current="page"
                       href="#"
                     >
                       Meus Pedidos
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                  <li className="nav-item">
+                    <a className="nav-link active" href="#">
                       Logout
                     </a>
                   </li>

@@ -37,7 +37,7 @@ export const Cards = () => {
 
             <div>
               <a href="#" className="defaut-button2">
-                Adicionar ao carrinho
+                Comprar pelo Whatsapp
               </a>
 
               <a

@@ -107,11 +107,12 @@ ul li a:hover {
 /* Home section */
 
 a{
+  color:#24a7f8 ;
   text-decoration: none;
 }
 
 .section1{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background: #EDF4F7;
 }
@@ -154,7 +155,7 @@ height: 55px;
 
 
 .section2{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   
 }
@@ -205,9 +206,10 @@ color: #051923;
 }
 
 .card2{
-  width: 21rem;
+  /* width: 21rem; */
   border-radius: 24px;
-    box-shadow: 0px 16px 16px -16px rgb(79 91 97 / 15%);
+    /* box-shadow: 0px 16px 16px -16px rgb(79 91 97 / 15%); */
+    box-shadow: 12px 17px 16px -16px rgb(0 0 0 / 15%);
     border: none !important;
     margin-bottom: -11px;
   /* width: 384px; */
@@ -219,21 +221,33 @@ color: #051923;
 .defaut-button2{
   width: 228px;
   height: 55px;
-  background:#00A6FB;
+  background:#2b8b7f;
   border-radius: 16px;
   line-height: 0;
   color: #FBFDFE;
   /* padding: 15px 23px; */
-  padding: 15px 12px;
+  /* padding: 15px 12px; */
+   padding: 15px 42px; 
+  
 
 
 font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 17px;
 line-height: 23px;
 
 }
+
+.defaut-button2:hover{
+  box-shadow: 0px 5px 30px rgb(65 84 241 / 24%);
+  /* color: white; */
+    color: #e4eaed;
+
+}
+
+ 
+
 
 .defaut-button3{
   width: 92px;
@@ -252,6 +266,10 @@ line-height: 23px;
     line-height: 23px;
 
 
+}
+
+.button-carrinho a {
+  color: white;
 }
 
 .price{
@@ -408,10 +426,178 @@ color: #051923;
   margin-top: 4rem;
 }
 
+.price2{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+
+/* Interface / Dark */
+
+color: #051923;
+
+}
+
+.margin-price{
+  margin-bottom: 22px;
+}
+
+
+
+.carousel-inner img{
+  width: 692px !important;
+  height: 560px;
+  border-radius: 24px;
+}
+
+.border-new{
+  border-radius: 24px;
+}
+
+
+
+.defaut-button4{
+  width: 228px;
+  height: 55px;
+  background:#128c7e;
+  border-radius: 16px;
+  line-height: 0;
+  color: #FBFDFE;
+  padding: 15px 66px;
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+}
+
+.p-products{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #051923;
+}
+
+.margin-second-cards{
+  margin-top: 3rem;
+}
+
+
+.v-counter {
+  gap: 20px;
+  /* border-radius: 32px;
+  max-width: 89px;
+  overflow: auto;
+  padding: 0px 4px;
+  border: 1px solid #323140;
+  margin: 10px; */
+  padding: 16px 24px;
+
+  width: 152px;
+  height: 60px;
+
+/* Interface/R-Light */
+
+background: #EDF4F7;
+border-radius: 16px 0px 0px 16px;
+
+}
+
+.v-counter input[type=button]:hover {
+  color: #787e81;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: transparent;
+}
+.v-counter span {
+ 
+  font-size: 13px;
+  color: #787e81;
+  font-family: 'Open Sans';
+}
+.v-counter input[type=button], input[type=text] {
+  font-size: 22px;
+  display: inline-block;
+  width: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px;
+  color: #8D9FA8;
+  height: 33px;
+  font-family: 'Open Sans';
+}
+
+.button-carrinho{
+  padding: 16px 46px;
+
+  width: 316px;
+  height: 60px;
+
+/* Interaction / Default */
+
+background: #218b7f;
+border-radius: 16px 16px 16px 16px;
+
+  /* D / 4 */
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height */
+
+
+/* Interface/Light */
+
+color: #FBFDFE;
+}
+
+.size-count{
+  font-size: 17px !important;
+}
 /* Fim Produto */
 
 
+/* Inicio Politica */
 
+.p-politica p{
+  margin-top: 26px;
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+margin: 20px 0;
+color: #000000;
+}
+
+.h2-politica{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.cardtexto1{
+  margin-top: 65px
+}
+
+/* Fim Politica */
 
 
 
@@ -446,6 +632,7 @@ color: white;
   .footer .footer-top {
     background-position: center bottom;
   }
+
 }
 
 .footer .footer-top .footer-info {
@@ -559,3 +746,90 @@ color: white;
 /* Fim Footer */
 
 
+/* Começo responsividade */
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+ @media (max-width: 575.98px) { 
+  .defaut-button2{
+    padding: 15px 20px;
+}
+.carousel-inner img {
+  width: 368px !important;
+  height: 388px;
+
+}
+
+.position-mobile {
+  justify-content: center;
+}
+
+
+.breadcrumb{
+  margin-top: 26px;
+}
+}
+
+/* / Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .defaut-button2{
+    padding: 15px 15px;
+    border: 2px solid red;
+}
+.carousel-inner img {
+     width: 548px !important;
+    height: 435px;
+
+}
+
+
+
+
+.breadcrumb{
+  margin-top: 26px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+  .defaut-button2{
+    padding: 15px 20px;
+}
+.carousel-inner img {
+  width: 368px !important;
+  height: 388px;
+
+}
+
+.position-mobile {
+  justify-content: center;
+}
+
+
+.breadcrumb{
+  margin-top: 26px;
+}
+
+}
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
+
+
+/* Fim responsividade */
