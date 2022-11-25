@@ -12,11 +12,11 @@ import {
 
 import '../../styles/styles.css';
 
-import ProductImg from '../../assets/caixa-som/caixa1.jpeg';
-import ProductImg2 from '../../assets/caixa-som/caixa2.jpeg';
-import ProductImg3 from '../../assets/caixa-som/caixa3.jpeg';
-import ProductImg4 from '../../assets/caixa-som/caixa4.jpeg';
-import ProductImg5 from '../../assets/caixa-som/caixa5.jpeg';
+import ProductImg from '@assets/caixa-som/caixa1.jpeg';
+import ProductImg2 from '@assets/caixa-som/caixa2.jpeg';
+import ProductImg3 from '@assets/caixa-som/caixa3.jpeg';
+import ProductImg4 from '@assets/caixa-som/caixa4.jpeg';
+import ProductImg5 from '@assets/caixa-som/caixa5.jpeg';
 
 import { Cards } from '../../components/Cards';
 export const Caixasom = () => {

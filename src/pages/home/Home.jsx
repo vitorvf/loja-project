@@ -3,13 +3,13 @@ import React from 'react';
 import '../../styles/styles.css';
 import { BsCoin } from 'react-icons/bs';
 
-import Img1 from '../../assets/bone-mr-robot/mrrobot-bone.jpeg';
-import Img2 from '../../assets/caixa-som/caixa3.jpeg';
-import Img3 from '../../assets/celular/celular1.jpeg';
-import Img4 from '../../assets/kali/kali1.png';
-import Img5 from '../../assets/mouse/mouse1.jpeg';
-import Img6 from '../../assets/mousepad-hellofriends/hellofriends1.jpeg';
-// import Img7 from '../../assets/mousepad-robot/robot1.jpeg';
+import Img1 from '@assets/bone-mr-robot/mrrobot-bone.jpeg';
+import Img2 from '@assets/caixa-som/caixa3.jpeg';
+import Img3 from '@assets/celular/celular1.jpeg';
+import Img4 from '@assets/Kali/kali1.png';
+import Img5 from '@assets/mouse/mouse1.jpeg';
+import Img6 from '@assets/mousepad-hellofriends/hellofriends1.jpeg';
+// import Img7 from '@assets/mousepad-robot/robot1.jpeg';
 
 export const Home = () => {
   return (

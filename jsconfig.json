@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        /** Type checking rules */
+        "jsx": "react",
+        "baseUrl": "./src",
+        "paths": {
+            "@*": ["*"],
+        }
+    },
+}
