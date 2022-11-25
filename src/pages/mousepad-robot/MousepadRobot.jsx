@@ -14,11 +14,11 @@ import {
 
 import '../../styles/styles.css';
 
-import ProductImg from '../../assets/mousepad-robot/robot1.jpeg';
-import ProductImg2 from '../../assets/mousepad-robot/robot2.jpeg';
-import ProductImg3 from '../../assets/mousepad-robot/robot3.jpeg';
-import ProductImg4 from '../../assets/mousepad-robot/robot4.jpeg';
-// import ProductImg5 from '../../assets/mousepad-robot/robot5.jpeg';
+import ProductImg from '@assets/mousepad-robot/robot1.jpeg';
+import ProductImg2 from '@assets/mousepad-robot/robot2.jpeg';
+import ProductImg3 from '@assets/mousepad-robot/robot3.jpeg';
+import ProductImg4 from '@assets/mousepad-robot/robot4.jpeg';
+// import ProductImg5 from '@assets/mousepad-robot/robot5.jpeg';
 import { Cards } from '../../components/Cards';
 export const MousepadRobot = () => {
   const [count, setCount] = useState(0);

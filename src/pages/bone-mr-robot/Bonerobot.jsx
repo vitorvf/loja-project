@@ -12,15 +12,15 @@ import {
 
 import '../../styles/styles.css';
 
-import ProductImg from '../../assets/bone-mr-robot/mrrobot-bone.jpeg';
-import ProductImg2 from '../../assets/bone-mr-robot/mrrobot-bone2.jpeg';
+import ProductImg from '@assets/bone-mr-robot/mrrobot-bone.jpeg';
+import ProductImg2 from '@assets/bone-mr-robot/mrrobot-bone2.jpeg';
 
-import Img1 from '../../assets/mousepad-robot/robot4.jpeg';
-import Img2 from '../../assets/caixa-som/caixa3.jpeg';
-import Img3 from '../../assets/celular/celular1.jpeg';
-import Img4 from '../../assets/kali/kali1.png';
-import Img5 from '../../assets/mouse/mouse1.jpeg';
-import Img6 from '../../assets/mousepad-hellofriends/hellofriends1.jpeg';
+import Img1 from '@assets/mousepad-robot/robot4.jpeg';
+import Img2 from '@assets/caixa-som/caixa3.jpeg';
+import Img3 from '@assets/celular/celular1.jpeg';
+import Img4 from '@assets/Kali/kali1.png';
+import Img5 from '@assets/mouse/mouse1.jpeg';
+import Img6 from '@assets/mousepad-hellofriends/hellofriends1.jpeg';
 
 export const Bonerobot = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/styles.css';
 
 import { BsSearch, BsCart3 } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+import Logo from '@assets/logo.png';
 export const Header = () => {
   return (
     <>

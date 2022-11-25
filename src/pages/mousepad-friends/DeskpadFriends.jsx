@@ -12,18 +12,18 @@ import {
 
 import '../../styles/styles.css';
 
-import ProductImg from '../../assets/mousepad-hellofriends/hellofriends1.jpeg';
-import ProductImg2 from '../../assets/mousepad-hellofriends/hellofriends2.jpeg';
-import ProductImg3 from '../../assets/mousepad-hellofriends/hellofriends3.jpeg';
-import ProductImg4 from '../../assets/mousepad-hellofriends/hellofriends4.jpeg';
-import ProductImg5 from '../../assets/mousepad-hellofriends/hellofriends5.jpeg';
+import ProductImg from '@assets/mousepad-hellofriends/hellofriends1.jpeg';
+import ProductImg2 from '@assets/mousepad-hellofriends/hellofriends2.jpeg';
+import ProductImg3 from '@assets/mousepad-hellofriends/hellofriends3.jpeg';
+import ProductImg4 from '@assets/mousepad-hellofriends/hellofriends4.jpeg';
+import ProductImg5 from '@assets/mousepad-hellofriends/hellofriends5.jpeg';
 
-import Img1 from '../../assets/bone-mr-robot/mrrobot-bone.jpeg';
-import Img2 from '../../assets/caixa-som/caixa3.jpeg';
-import Img3 from '../../assets/celular/celular1.jpeg';
-import Img4 from '../../assets/kali/kali1.png';
-import Img5 from '../../assets/mouse/mouse1.jpeg';
-import Img6 from '../../assets/mousepad-robot/robot4.jpeg';
+import Img1 from '@assets/bone-mr-robot/mrrobot-bone.jpeg';
+import Img2 from '@assets/caixa-som/caixa3.jpeg';
+import Img3 from '@assets/celular/celular1.jpeg';
+import Img4 from '@assets/Kali/kali1.png';
+import Img5 from '@assets/mouse/mouse1.jpeg';
+import Img6 from '@assets/mousepad-robot/robot4.jpeg';
 
 export const DeskpadFriends = () => {
   return (

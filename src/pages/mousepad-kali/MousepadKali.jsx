@@ -12,17 +12,17 @@ import {
 
 import '../../styles/styles.css';
 
-import ProductImg from '../../assets/Kali/kali1.png';
-import ProductImg2 from '../../assets/Kali/kali2.png';
-import ProductImg3 from '../../assets/Kali/kali3.png';
-import ProductImg4 from '../../assets/Kali/kali4.png';
+import ProductImg from '@assets/Kali/kali1.png';
+import ProductImg2 from '@assets/Kali/kali2.png';
+import ProductImg3 from '@assets/Kali/kali3.png';
+import ProductImg4 from '@assets/Kali/kali4.png';
 
-import Img1 from '../../assets/bone-mr-robot/mrrobot-bone.jpeg';
-import Img2 from '../../assets/caixa-som/caixa3.jpeg';
-import Img3 from '../../assets/celular/celular1.jpeg';
-import Img4 from '../../assets/mousepad-robot/robot4.jpeg';
-import Img5 from '../../assets/mouse/mouse1.jpeg';
-import Img6 from '../../assets/mousepad-hellofriends/hellofriends1.jpeg';
+import Img1 from '@assets/bone-mr-robot/mrrobot-bone.jpeg';
+import Img2 from '@assets/caixa-som/caixa3.jpeg';
+import Img3 from '@assets/celular/celular1.jpeg';
+import Img4 from '@assets/mousepad-robot/robot4.jpeg';
+import Img5 from '@assets/mouse/mouse1.jpeg';
+import Img6 from '@assets/mousepad-hellofriends/hellofriends1.jpeg';
 export const MousepadKali = () => {
   return (
     <>

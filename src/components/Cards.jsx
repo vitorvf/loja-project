@@ -1,5 +1,5 @@
 import React from 'react';
-import Img1 from '../assets/img1.png';
+import Img1 from '@assets/img1.png';
 import { BsCoin, BsStar } from 'react-icons/bs';
 export const Cards = () => {
   return (

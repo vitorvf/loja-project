@@ -12,7 +12,7 @@ import {
 } from 'react-icons/bs';
 import '../../styles/styles.css';
 
-import ProductImg from '../../assets/product-img.png';
+import ProductImg from '@assets/product-img.png';
 import { Cards } from '../../components/Cards';
 export const Produto = () => {
   const [count, setCount] = useState(0);
